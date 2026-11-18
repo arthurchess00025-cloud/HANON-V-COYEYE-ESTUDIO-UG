@@ -5,7 +5,7 @@ import streamlit as st
 
 BASE = Path(__file__).parent
 DATA_PATH = BASE / "hanon_data.json"
-LOGO_PATH = BASE / "logo_hanon.png"
+LOGO_PATH = BASE / "logo_hanon-V.jpeg"
 
 st.set_page_config(page_title="Hanon-V", page_icon="📚", layout="wide", initial_sidebar_state="expanded")
 with DATA_PATH.open("r", encoding="utf-8") as f:
