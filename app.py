@@ -229,7 +229,6 @@ if page == "Inicio":
         st.markdown("Fuentes: [The Hidden Thirst of AI (2026)](https://www.mdpi.com/3042-9242/1/2/8) · [Stanford AI Index Report 2026](https://hai.stanford.edu/ai-index/2026-ai-index-report).")
 
 elif page == "Temario":
-    # Golden-ratio split: 38.2% controls and 61.8% study content.
     nav_col, content_col = st.columns([0.382, 0.618], gap="large")
     with nav_col:
         st.markdown("### Semestres")
